@@ -1,7 +1,6 @@
 # BERTFineTuning
 Problem Statement -- Classifying sentences into POSITIVE and NEGATIVE by using fine-tuned BERT model. 
 
-
 # Sentiment Analysis with BERT
 
 This repository contains code for a sentiment analysis model using the BERT architecture.
@@ -16,7 +15,7 @@ This repository contains code for a sentiment analysis model using the BERT arch
     - Loads data and preprocesses it.
     - Creates DataLoaders.
     - Initializes the model, optimizer, and loss function.
-    - Trains the model and saves the best model.
+    - Trains the model and saves the best model. 
     - Loads the best model and evaluates it on the test data.
 
 **Dependencies:**
@@ -48,3 +47,23 @@ This is a basic example, and you can further enhance it by:
 Implementing early stopping.
 Using techniques like grid search or random search to find optimal hyperparameters.
 Adding features like data augmentation or regularization.
+
+
+**Use Cases:**
+1 Customer Feedback Analysis:
+Classify customer reviews as positive or negative to gauge product or service performance.
+Prioritize addressing negative reviews.
+2 Social Media Monitoring:
+Analyze tweets, posts, or comments to determine sentiment towards brands, products, or events.
+Measure public perception during campaigns or crises.
+3 Movie Review Aggregators:
+Automatically classify and summarize movie reviews to generate audience sentiment scores.
+4 Product Recommendations:
+Use sentiment classification to improve recommendation systems by considering review polarity.
+5 Political Sentiment Analysis:
+Monitor sentiment trends around political campaigns, policies, or candidates.
+6 Healthcare Feedback:
+Analyze patient feedback for healthcare providers to identify areas of satisfaction or concern.
+7 Market Research:
+Process survey responses to understand consumer sentiment toward marketing strategies or product launches.
+
